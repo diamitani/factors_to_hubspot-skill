@@ -1,3 +1,9 @@
+---
+name: factors-to-hubspot
+description: >
+  This file covers the primary use case: syncing Factors.ai workflow activity into HubSpot, specifically keeping `factors_abm__workflow_date` accurate on Company records, and wiring Factors signals to trigger the n8n prospecting automation. Auth is in `credentials.md`. Use this skill when working with factors to hubspot tasks or workflows.
+---
+
 # Factors.ai → HubSpot Sync Reference
 
 This file covers the primary use case: syncing Factors.ai workflow activity into HubSpot,
@@ -385,7 +391,7 @@ Use `account_domain` in n8n to:
 
 ## Canonical Workflow Templates
 
-These are the recommended workflows for the {{COMPANY_NAME}} ABM motion. Create all of them.
+These are the recommended workflows for the Enterprise Platform ABM motion. Create all of them.
 
 ### Template 1: Pricing Page Visit → HubSpot Date
 Trigger: `$pageview` with `/pricing` in URL
